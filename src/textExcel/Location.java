@@ -7,6 +7,6 @@ package textExcel;
 public interface Location
 {
 	// represents a location like B6, must be implemented by your SpreadsheetLocation class
-	int getRow(); // gets row of this location
-	int getCol(); // gets column of this location
+	int getRow(); // returns the row number of this location
+	int getCol(); // returns the column number of this location
 }
